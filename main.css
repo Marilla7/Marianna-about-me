@@ -6,31 +6,33 @@
 }
 
 .profile-card {
-  width: 550px;
+  width: 600px;
   max-width: calc(100vw - 10px);
-  height: 400px;
-  background-color: #ffddf4;
+  height: 450px;
+  background-color: rgba(255, 240, 245, 0.7);
   border-radius: 8px;
-  box-shadow: rgba(128,128,128, 0.8) 10px 10px 80px;
+  box-shadow: rgba(0,0,0, 0.8) 10px 10px 80px;
 }
 
-.body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url('https://imgur.com/04QOOYS.jpg') no-repeat center center fixed; 
   background-size: cover;
-  background:url('https://imgur.com/q0HxE0j.jpg') no-repeat center center fixed; 
 }
   
 .head {
+  width: 50%;
   text-align: center;
-  width: 220px;
-}
+  margin: auto;
+ }
   
 .content {
+  width: 80%;
   text-align: left;
-  margin-top: 10px;
+  margin: auto;
 } 
   
  img {
@@ -82,7 +84,7 @@ h1 {
 h2 {
   margin-bottom: 5px;
   font-family: Georgia, serif;
-  font-size: 20px
+  font-size: 20px;
 }  
 
 p {
@@ -91,6 +93,16 @@ p {
    
 li {
   font-size: 20px;
-  font-family: Georgia, serif;  
+  font-family: Georgia, serif; 
+  
 }  
-       
+   
+.about h2 {
+  margin: 15px;
+}   
+   
+
+.about ul {
+  margin: 10px;
+}
+
